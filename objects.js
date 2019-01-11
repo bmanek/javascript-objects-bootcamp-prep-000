@@ -1,5 +1,10 @@
 var playlist = {"Nine Inch Nails" : "Closer"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  return Object.assign({}, playlist, {[artistName] : songTitle});
+  Object.assign({}, playlist, {[artistName] : songTitle});
+  return playlist;
+}
+
+function removeFromPlaylist(playlist, artistName) {
+  
 }
