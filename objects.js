@@ -1,4 +1,4 @@
-var playlist = {"Nine Inch Nails" : "Closer", "Slowdive" : "Alison", "My Bloody Valentine" : "Sometimes"};
+var playlist = {"Nine Inch Nails" : "Closer"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist['artistName'] = songTitle;
